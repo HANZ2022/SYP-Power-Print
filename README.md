@@ -1,36 +1,35 @@
 # SYP-Power-Print
  It is a Senior Year Project for Dalhousie University students. The project aims to implement the initial positioning of a handheld printer on a flat surface using computer vision methods. It utilizes template matching to locate the target pattern within a specified plane for position tracking.
 
+# Project Name
 
-# 项目名称
+![GitHub](https://img.shields.io/github/license/username/projectname)  
+![GitHub stars](https://img.shields.io/github/stars/username/projectname)  
+![GitHub forks](https://img.shields.io/github/forks/username/projectname)  
 
-![GitHub](https://img.shields.io/github/license/用户名/项目名称)
-![GitHub stars](https://img.shields.io/github/stars/用户名/项目名称)
-![GitHub forks](https://img.shields.io/github/forks/用户名/项目名称)
+## About
 
-## 关于
+A brief description of what your project is, what problem it solves, and why it's cool.
 
-简短描述你的项目是什么，它解决了什么问题，以及为什么它很酷。
+## Features
 
-## 功能
+- Feature 1: Description
+- Feature 2: Description
+- Feature 3: Description
 
-- 功能1：描述
-- 功能2：描述
-- 功能3：描述
+## Installation
 
-## 安装
-
-说明如何安装你的项目。
+Instructions on how to install your project.
 
 ```bash
-# 使用git克隆项目
-git clone https://github.com/用户名/项目名称.git
+# Clone the repository
+git clone https://github.com/username/projectname.git
 
-# 进入项目目录
-cd 项目名称
+# Navigate to the project directory
+cd projectname
 
-# 安装依赖
+# Install dependencies
 npm install
 
-# 运行项目
+# Start the project
 npm start
