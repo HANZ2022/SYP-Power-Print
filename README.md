@@ -1,12 +1,6 @@
 # SYP-Power-Print
  It is a Senior Year Project for Dalhousie University students. The project aims to implement the initial positioning of a handheld printer on a flat surface using computer vision methods. It utilizes template matching to locate the target pattern within a specified plane for position tracking.
 
-# Project Name
-
-![GitHub](https://img.shields.io/github/license/username/projectname)  
-![GitHub stars](https://img.shields.io/github/stars/username/projectname)  
-![GitHub forks](https://img.shields.io/github/forks/username/projectname)  
-
 ## About
 
 A brief description of what your project is, what problem it solves, and why it's cool.
