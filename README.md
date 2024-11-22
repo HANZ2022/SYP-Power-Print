@@ -1,29 +1,104 @@
 # SYP-Power-Print
  It is a Senior Year Project for Dalhousie University students. The project aims to implement the initial positioning of a handheld printer on a flat surface using computer vision methods. It utilizes template matching to locate the target pattern within a specified plane for position tracking.
 
-## About
 
-A brief description of what your project is, what problem it solves, and why it's cool.
+# Raspberry Pi Camera Detection System
+
+A detection system utilizing **Raspberry Pi 5** and **Raspberry Pi Camera 3** for real-time region detection and template matching.
+
+## Table of Contents
+- [Features](#features)
+- [Hardware and Software Requirements](#hardware-and-software-requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Menu Options](#menu-options)
+  - [Parameter Adjustment](#parameter-adjustment)
+- [File Structure](#file-structure)
+- [Notes](#notes)
+- [Contact](#contact)
+
+---
 
 ## Features
+1. **Parameter Adjustment**: Define the region of interest (ROI) and capture template images.
+2. **Real-Time Detection**: Detect and locate template matches in captured images.
+3. **Camera Mode Switching**: Support high, medium, and low-resolution modes.
 
-- Feature 1: Description
-- Feature 2: Description
-- Feature 3: Description
+---
+
+## Hardware and Software Requirements
+
+### Hardware
+- Raspberry Pi 5
+- Raspberry Pi Camera 3
+
+### Software
+- Raspberry Pi OS (Official OS)
+
+### Dependencies
+- `opencv-python`
+- `numpy`
+- `picamera2`
+
+---
 
 ## Installation
 
-Instructions on how to install your project.
-
+### Step 1: Install Dependencies
+Run the following commands on your Raspberry Pi:
 ```bash
-# Clone the repository
-git clone https://github.com/username/projectname.git
+sudo apt update
+sudo apt install python3-opencv python3-pip -y
+pip3 install numpy picamera2
+```
 
-# Navigate to the project directory
-cd projectname
+### Step 2: Clone the Repository
+Clone this repository to your Raspberry Pi:
+```bash
+git clone <repository_url>
+cd <repository_directory>
+```
 
-# Install dependencies
-npm install
+### Step 3: Run the Application
+Launch the application with:
+```bash
+python3 detect.py
+```
 
-# Start the project
-npm start
+---
+
+## Usage
+
+### Menu Options
+After starting the program, a menu will appear with the following options:
+1. **Start Detection**: Begin real-time template matching.
+2. **Adjust Parameters**: Configure region boundaries and template images.
+3. **Modify Camera Mode**: Switch between different camera resolutions.
+4. **Change Parameter Folder**: Manage parameter files and configurations.
+5. **Exit Program**: Close the application.
+
+### Parameter Adjustment
+Select **Adjust Parameters** from the menu to perform the following:
+- **Set Region Boundaries**: Manually select the four corners of the region of interest.
+- **Set Real Size**: Input the actual dimensions (in millimeters) of the region.
+- **Set Template Image**: Manually select and save the template image for detection.
+
+---
+
+## File Structure
+- **`detect.py`**: Main script for user interaction and mode selection.
+- **`parameters_helper.py`**: Class for managing adjustable parameters (ROI, templates, etc.).
+- **`detect_helper.py`**: Classes for camera control and detection processing.
+
+---
+
+## Notes
+- Ensure the Camera 3 is correctly connected and enabled before running the application.
+- All parameter files are stored in the `parameters_support` folder, with separate subfolders for each configuration.
+
+---
+
+## Contact
+For support or feedback, please contact the repository maintainer.
+
+--- 
