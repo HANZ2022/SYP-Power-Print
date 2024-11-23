@@ -1,7 +1,7 @@
 # SYP-Power-Print
  It is a Senior Year Project for Dalhousie University students. The project aims to implement the initial positioning of a handheld printer on a flat surface using computer vision methods. It utilizes template matching to locate the target pattern within a specified plane for position tracking.
 
-
+--- ![Data_flow](https://github.com/user-attachments/assets/eb2fc89a-5641-4ef6-ba57-613e77cf2537)
 # Raspberry Pi Camera Detection System
 
 A detection system utilizing **Raspberry Pi 5** and **Raspberry Pi Camera 3** for real-time region detection and template matching.
@@ -101,4 +101,4 @@ Select **Adjust Parameters** from the menu to perform the following:
 ## Contact
 For support or feedback, please contact the repository maintainer.
 
---- 
+
