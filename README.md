@@ -4,10 +4,10 @@
 --- ![Data_flow](https://github.com/user-attachments/assets/eb2fc89a-5641-4ef6-ba57-613e77cf2537)
 # Raspberry Pi Camera Detection System
 
-A detection system utilizing **Raspberry Pi 5** and **Raspberry Pi Camera 3** for real-time region detection and template matching.
+A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** for capturing the workspace images and processing.
 
 ## Table of Contents
-- [Features](#features)
+- [Modules Used for the project](#Modules Used for the project)
 - [Hardware and Software Requirements](#hardware-and-software-requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -17,12 +17,6 @@ A detection system utilizing **Raspberry Pi 5** and **Raspberry Pi Camera 3** fo
 - [Notes](#notes)
 - [Contact](#contact)
 
----
-
-## Features
-1. **Parameter Adjustment**: Define the region of interest (ROI) and capture template images.
-2. **Real-Time Detection**: Detect and locate template matches in captured images.
-3. **Camera Mode Switching**: Support high, medium, and low-resolution modes.
 
 ---
 
