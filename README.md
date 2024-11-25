@@ -31,12 +31,13 @@ A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** fo
 - USB Reader
 - Raspberry Pi Case with a Cooling Fan
 
-- Micro/HDMI Adapter: 
+Micro/HDMI Adapter: 
 This cable can connect the Raspberry Pi to the monitor. This way, you can operate the Raspberry Pi directly using a keyboard, mouse, and monitor.
-- USB Reader: 
+
+USB Reader: 
 When you need to re-flash the operating system, you will need this card reader to connect your computer to the Raspberry Pi's TF memory card.
+
 Raspberry Pi Case with a Cooling Fan：
-- Raspberry Pi Case with a Cooling Fan：
 Protect the hardware and assist in heat dissipation.
 
 
