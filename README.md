@@ -1,7 +1,7 @@
 # SYP-Power-Print
  It is a Senior Year Project for Dalhousie University students. The project aims to implement the initial positioning of a handheld printer on a flat surface using computer vision methods. It utilizes template matching to locate the target pattern within a specified plane for position tracking.
 
---- ![Data_flow](https://github.com/user-attachments/assets/eb2fc89a-5641-4ef6-ba57-613e77cf2537)
+ ![Data_flow](https://github.com/user-attachments/assets/eb2fc89a-5641-4ef6-ba57-613e77cf2537)
 # Raspberry Pi Camera Detection System
 
 A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** for capturing the workspace images and processing.
@@ -24,7 +24,7 @@ A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** fo
 - Raspberry Pi 5 (8G RAM) with a TransFlash card
 - Raspberry Pi Camera 3 Wide
 - CSI/DSI Flexible Cable (22Pin to 15Pin)
-CSI/DSI Flexible Cable is used to connect the camera to the Raspberry Pi. And because we are using Raspberry Pi 5, so we need CSI/DSI (22Pin to 15Pin). Raspberry Pi 5
+##### CSI/DSI Flexible Cable is used to connect the camera to the Raspberry Pi. The data interface of Raspberry Pi 5 is different from that of previous versions. Thus we need CSI/DSI (22Pin to 15Pin) cable.
 
 #### Optional Hardware
 - Micro/HDMI Adapter:
