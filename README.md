@@ -23,11 +23,11 @@ A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** fo
 #### Required Hardware
 - Raspberry Pi 5 (8G RAM) with a TransFlash card
 - Raspberry Pi Camera 3 Wide
-- CSI/DSI Flexible Flat Cable
-
+- CSI/DSI Flexible Cable (22Pin to 15Pin)
+CSI/DSI Flexible Cable is used to connect the camera to the Raspberry Pi. And because we are using Raspberry Pi 5, so we need CSI/DSI (22Pin to 15Pin). Raspberry Pi 5
 
 #### Optional Hardware
-- Micro/HDMI Adapter
+- Micro/HDMI Adapter:
 - USB Reader
 - Raspberry Pi Case with a Cooling Fan
 
