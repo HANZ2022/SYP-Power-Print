@@ -7,7 +7,6 @@
 A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** for capturing the workspace images and processing.
 
 ## Table of Contents
-- [Modules Used for the project](#Modules-Used-for-the-Project)
 - [Hardware and Software Requirements](#hardware-and-software-requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -19,13 +18,27 @@ A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** fo
 
 
 ---
-## Modules Used for the Project
-
-## Hardware and Software Requirements
 
 ### Hardware
-- Raspberry Pi 5
-- Raspberry Pi Camera 3
+#### Required Hardware
+- Raspberry Pi 5 (8G RAM) with a TransFlash card
+- Raspberry Pi Camera 3 Wide
+- CSI/DSI Flexible Flat Cable
+
+
+#### Optional Hardware
+- Micro/HDMI Adapter
+- USB Reader
+- Raspberry Pi Case with a Cooling Fan
+
+- Micro/HDMI Adapter: 
+This cable can connect the Raspberry Pi to the monitor. This way, you can operate the Raspberry Pi directly using a keyboard, mouse, and monitor.
+- USB Reader: 
+When you need to re-flash the operating system, you will need this card reader to connect your computer to the Raspberry Pi's TF memory card.
+Raspberry Pi Case with a Cooling Fan：
+- Raspberry Pi Case with a Cooling Fan：
+Protect the hardware and assist in heat dissipation.
+
 
 ### Software
 - Raspberry Pi OS (Official OS)
