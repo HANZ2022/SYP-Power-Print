@@ -18,7 +18,7 @@ A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** fo
 
 
 ---
-
+## Hardware and Software Requirements
 ### Hardware
 #### Required Hardware
 - Raspberry Pi 5 (8G RAM) with a TransFlash card
