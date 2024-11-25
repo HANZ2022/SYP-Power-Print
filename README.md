@@ -7,7 +7,7 @@
 A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** for capturing the workspace images and processing.
 
 ## Table of Contents
-- [Hardware and Software Requirements](#hardware-and-software-requirements)
+- [Hardware and Software Requirements](#Hardware-and-Software-Requirements)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Menu Options](#menu-options)
