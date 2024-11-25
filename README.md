@@ -42,7 +42,9 @@ Protect the hardware and assist in heat dissipation.
 
 
 ### Software
-- Raspberry Pi OS (Official OS)
+- Raspberry Pi OS (Raspbian GNU/Linux 12 (bookworm))
+  Download from here: https://www.raspberrypi.com/software/operating-systems/(URL)
+- Python 3.11.2
 
 ### Dependencies
 - `opencv-python`
