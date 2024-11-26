@@ -24,27 +24,33 @@ A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** fo
 - Raspberry Pi 5 (8G RAM) with a TransFlash card
 - Raspberry Pi Camera 3 Wide
 - CSI/DSI Flexible Cable (22Pin to 15Pin)
-##### CSI/DSI Flexible Cable is used to connect the camera to the Raspberry Pi. The data interface of Raspberry Pi 5 is different from that of previous versions. Thus we need CSI/DSI (22Pin to 15Pin) cable.
+
+CSI/DSI Flexible Cable is used to connect the camera to the Raspberry Pi. The data interface of Raspberry Pi 5 is different from that of previous versions. Thus we need CSI/DSI (22Pin to 15Pin) cable.
 
 #### Optional Hardware
 - Micro/HDMI Adapter:
 - USB Reader
 - Raspberry Pi Case with a Cooling Fan
 
-##### Micro/HDMI Adapter: 
+1. Micro/HDMI Adapter: 
 This cable can connect the Raspberry Pi to the monitor. This way, you can operate the Raspberry Pi directly using a keyboard, mouse, and monitor.
 
-##### USB Reader: 
+2. USB Reader: 
 When you need to re-flash the operating system, you will need this card reader to connect your computer to the Raspberry Pi's TF memory card.
 
-##### Raspberry Pi Case with a Cooling Fan：
-Protect the hardware and assist in heat dissipation.
+3. Raspberry Pi Case with a Cooling Fan：
+    Protect the hardware and assist in heat dissipation.
 
 
 ### Software
+Software in Raspberry Pi
 - Raspberry Pi OS (Raspbian GNU/Linux 12 (bookworm))
-  Download from here: https://www.raspberrypi.com/software/operating-systems/(URL)
+  Download from [here](https://www.raspberrypi.com/software/operating-systems)
 - Python 3.11.2
+
+If you need to access the Raspberry Pi remotely, download a software that enables SSH remote access on the desktop.
+- MobaXterm (Recommended) Download from [here](https://mobaxterm.mobatek.net/download.html)
+
 
 ### Dependencies
 - `opencv-python`
