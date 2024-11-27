@@ -16,7 +16,7 @@ A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** fo
 - [Notes](#notes)
 - [Contact](#contact)
 - [Attachments](#Attachments)
-  - [Re-Flashing Operation System](#1.-Steps-for-Flashing-the-Operating-System)
+  - [Re-Flashing Operation System](#Steps-for-Flashing-the-Operating-System)
 
 
 ---
