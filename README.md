@@ -17,6 +17,7 @@ A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** fo
 - [Contact](#contact)
 - [Attachments](#Attachments)
   - [Re-Flashing Operation System](#Steps-for-Flashing-the-Operating-System)
+  - [Remote Access](#Steps-for-Remote-Access)
 
 
 ---
@@ -46,12 +47,12 @@ When you need to re-flash the operating system, you will need this card reader t
 
 ### Software
 Software in Raspberry Pi
-- Raspberry Pi OS (Raspbian GNU/Linux 12 (bookworm)), download this: (Raspberry Pi OS with desktop and recommended software)
-  Download from [here](https://www.raspberrypi.com/software/operating-systems). Please refer to [here](#Steps-for-Flashing-the-Operating-System) for the flashing steps.
+- Raspberry Pi OS (Raspbian GNU/Linux 12 (bookworm), download (Raspberry Pi OS with desktop and recommended software) from [here](https://www.raspberrypi.com/software/operating-systems). Please refer to [here](#Steps-for-Flashing-the-Operating-System) for the flashing steps.
 - Python 3.11.2
 
 If you need to access the Raspberry Pi remotely, download a software that enables SSH remote access on the desktop.
 - MobaXterm (Recommended) Download from [here](https://mobaxterm.mobatek.net/download.html)
+- An instruction on how to use the software to access the RaspberryPi remotely can be found in the appendix, click [here](#Steps-for-Remote-Access)
 
 
 ### Dependencies
@@ -119,7 +120,7 @@ Select **Adjust Parameters** from the menu to perform the following:
 
 ## Attachments
 ### Steps for Flashing the Operating System
-1. The App used to re-flash the operation, download from [here](#https://www.raspberrypi.com/software):
+1. The App used to re-flash the operation, download from [here](https://www.raspberrypi.com/software):
 
 ![Step1](https://github.com/user-attachments/assets/b6f41eee-8a4d-445d-a70f-5fb8267ee78a)
 
@@ -131,6 +132,9 @@ Select **Adjust Parameters** from the menu to perform the following:
 3. Apply Customized Setting:
 
 ![Step3](https://github.com/user-attachments/assets/cca3e70a-eb0c-4ae5-ad01-a7a5c998033e)
+
+- Pre-setting the the WIFI. The author used his own mobile phone's hotspot as the network here. Some public networks may not be able to be connected due to certificate issues (for example, the school network cannot be directly connected).
+
 ![Step4](https://github.com/user-attachments/assets/adc84258-351e-465b-9678-e085b077fbc1)
 
 - If you want to use password:
@@ -142,11 +146,15 @@ Select **Adjust Parameters** from the menu to perform the following:
 ![Step5](https://github.com/user-attachments/assets/abd457b9-5707-488e-8dcf-b41172b070a1)
 
 
+### Steps for Remote Access
+The software used here is MobaXterm. Download from [here](https://mobaxterm.mobatek.net/download.html).
+1. Create a new session and select SSH:
+
+![Step 1](https://github.com/user-attachments/assets/8ef238f6-bb44-4a60-ab4f-239dbc5cb16f)
+![Step 2](https://github.com/user-attachments/assets/7e2a485c-e1cd-4f25-9771-6463eddbb4af)
 
 ## Contact
 For support or feedback, please contact the repository maintainer.
-
-![屏幕截图 2024-11-27 185656](https://github.com/user-attachments/assets/cc58b570-7323-4c63-a518-0c8e761a1158)
 
 
 
