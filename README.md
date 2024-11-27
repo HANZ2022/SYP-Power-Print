@@ -119,26 +119,34 @@ Select **Adjust Parameters** from the menu to perform the following:
 
 ## Attachments
 ### Steps for Flashing the Operating System
-1. The App used to re-flash the operation:
+1. The App used to re-flash the operation, download from [here](#https://www.raspberrypi.com/software):
 
-![step1](https://github.com/user-attachments/assets/48ecf000-4cd5-4b19-964f-5e8eaa5ffb22)
+![Step1](https://github.com/user-attachments/assets/b6f41eee-8a4d-445d-a70f-5fb8267ee78a)
 
-2. Select the Downloaded Operating System Image File:
 
-![step2](https://github.com/user-attachments/assets/6bdbb1f5-747a-4323-aa8a-22e626ba64a9)
-![step3](https://github.com/user-attachments/assets/e747f7a9-8ef2-4c13-9960-687b657a5b0f)
+2. Select the Downloaded Operating System Image File or download online from the options in list:
 
-3. Select Your TF Memory Card:
+![Step2](https://github.com/user-attachments/assets/3019d8a8-8e26-4ca6-a6bc-71394e1c587a)
 
-![step4](https://github.com/user-attachments/assets/1129f9d1-0ee1-46d8-ad27-6859490e4d26)
+3. Apply Customized Setting:
 
-4. Starting Flashing:
+![Step3](https://github.com/user-attachments/assets/cca3e70a-eb0c-4ae5-ad01-a7a5c998033e)
+![Step4](https://github.com/user-attachments/assets/adc84258-351e-465b-9678-e085b077fbc1)
 
-![step5](https://github.com/user-attachments/assets/0bb9cd30-0cdf-4e1a-b999-818250587e94)
+- If you want to use password:
 
----
+![Step 5](https://github.com/user-attachments/assets/d21c6059-3af3-4509-abc6-443f53a3bfb3)
+
+- If you trust the device you are using: 
+
+![Step5](https://github.com/user-attachments/assets/abd457b9-5707-488e-8dcf-b41172b070a1)
+
+
 
 ## Contact
 For support or feedback, please contact the repository maintainer.
+
+![屏幕截图 2024-11-27 185656](https://github.com/user-attachments/assets/cc58b570-7323-4c63-a518-0c8e761a1158)
+
 
 
