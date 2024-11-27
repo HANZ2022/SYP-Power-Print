@@ -15,6 +15,8 @@ A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** fo
 - [File Structure](#file-structure)
 - [Notes](#notes)
 - [Contact](#contact)
+- [Attachments](#Attachments)
+  - [Re-Flashing Operation System](#Steps-for-Re--flashing-the-Operating-System)
 
 
 ---
@@ -44,7 +46,7 @@ When you need to re-flash the operating system, you will need this card reader t
 
 ### Software
 Software in Raspberry Pi
-- Raspberry Pi OS (Raspbian GNU/Linux 12 (bookworm))
+- Raspberry Pi OS (Raspbian GNU/Linux 12 (bookworm)), download this: (Raspberry Pi OS with desktop and recommended software)
   Download from [here](https://www.raspberrypi.com/software/operating-systems)
 - Python 3.11.2
 
@@ -112,6 +114,27 @@ Select **Adjust Parameters** from the menu to perform the following:
 ## Notes
 - Ensure the Camera 3 is correctly connected and enabled before running the application.
 - All parameter files are stored in the `parameters_support` folder, with separate subfolders for each configuration.
+
+---
+
+## Attachments
+### 1. Steps for Re-flashing the Operating System
+1. The App used to re-flash the operation:
+
+![step1](https://github.com/user-attachments/assets/48ecf000-4cd5-4b19-964f-5e8eaa5ffb22)
+
+2. Select the Downloaded Operating System Image File:
+
+![step2](https://github.com/user-attachments/assets/6bdbb1f5-747a-4323-aa8a-22e626ba64a9)
+![step3](https://github.com/user-attachments/assets/e747f7a9-8ef2-4c13-9960-687b657a5b0f)
+
+3. Select Your TF Memory Card:
+
+![step4](https://github.com/user-attachments/assets/1129f9d1-0ee1-46d8-ad27-6859490e4d26)
+
+4. Starting Flashing:
+
+![step5](https://github.com/user-attachments/assets/0bb9cd30-0cdf-4e1a-b999-818250587e94)
 
 ---
 
