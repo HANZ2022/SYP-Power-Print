@@ -47,7 +47,7 @@ When you need to re-flash the operating system, you will need this card reader t
 ### Software
 Software in Raspberry Pi
 - Raspberry Pi OS (Raspbian GNU/Linux 12 (bookworm)), download this: (Raspberry Pi OS with desktop and recommended software)
-  Download from [here](https://www.raspberrypi.com/software/operating-systems)
+  Download from [here](https://www.raspberrypi.com/software/operating-systems). Please refer to [here](#Steps-for-Flashing-the-Operating-System) for the flashing steps.
 - Python 3.11.2
 
 If you need to access the Raspberry Pi remotely, download a software that enables SSH remote access on the desktop.
