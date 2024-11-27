@@ -16,7 +16,7 @@ A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** fo
 - [Notes](#notes)
 - [Contact](#contact)
 - [Attachments](#Attachments)
-  - [Re-Flashing Operation System](#1.-Steps-for-Re-flashing-the-Operating-System)
+  - [Re-Flashing Operation System](#1.-Steps-for-Flashing-the-Operating-System)
 
 
 ---
@@ -118,7 +118,7 @@ Select **Adjust Parameters** from the menu to perform the following:
 ---
 
 ## Attachments
-### 1. Steps for Re-flashing the Operating System
+### 1. Steps for Flashing the Operating System
 1. The App used to re-flash the operation:
 
 ![step1](https://github.com/user-attachments/assets/48ecf000-4cd5-4b19-964f-5e8eaa5ffb22)
