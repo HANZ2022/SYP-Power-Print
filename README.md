@@ -78,7 +78,7 @@ cd SYP-Power-Print
 Download the lib
 ```bash
 pip install --upgrade pip
-pip install opencv-python和sudo apt install python3-opencv python3-pip -y
+sudo apt install python3-opencv python3-pip -y
 ```
 
 Run the python code:
