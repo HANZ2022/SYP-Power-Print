@@ -1,14 +1,13 @@
 # SYP-Power-Print
  It is a Senior Year Project for Dalhousie University students. The project aims to implement the initial positioning of a handheld printer on a flat surface using computer vision methods. It utilizes template matching to locate the target pattern within a specified plane for position tracking.
 
-
+ ![Data_flow](https://github.com/user-attachments/assets/eb2fc89a-5641-4ef6-ba57-613e77cf2537)
 # Raspberry Pi Camera Detection System
 
-A detection system utilizing **Raspberry Pi 5** and **Raspberry Pi Camera 3** for real-time region detection and template matching.
+A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** for capturing the workspace images and processing.
 
 ## Table of Contents
-- [Features](#features)
-- [Hardware and Software Requirements](#hardware-and-software-requirements)
+- [Hardware and Software Requirements](#Hardware-and-Software-Requirements)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Menu Options](#menu-options)
@@ -16,24 +15,45 @@ A detection system utilizing **Raspberry Pi 5** and **Raspberry Pi Camera 3** fo
 - [File Structure](#file-structure)
 - [Notes](#notes)
 - [Contact](#contact)
+- [Attachments](#Attachments)
+  - [Re-Flashing Operation System](#Steps-for-Flashing-the-Operating-System)
+  - [Remote Access](#Steps-for-Remote-Access)
+
 
 ---
-
-## Features
-1. **Parameter Adjustment**: Define the region of interest (ROI) and capture template images.
-2. **Real-Time Detection**: Detect and locate template matches in captured images.
-3. **Camera Mode Switching**: Support high, medium, and low-resolution modes.
-
----
-
 ## Hardware and Software Requirements
-
 ### Hardware
-- Raspberry Pi 5
-- Raspberry Pi Camera 3
+#### Required Hardware
+- Raspberry Pi 5 (8G RAM) with a TransFlash card
+- Raspberry Pi Camera 3 Wide
+- CSI/DSI Flexible Cable (22Pin to 15Pin)
+
+CSI/DSI Flexible Cable is used to connect the camera to the Raspberry Pi. The data interface of Raspberry Pi 5 is different from that of previous versions. Thus we need CSI/DSI (22Pin to 15Pin) cable.
+
+#### Optional Hardware
+- Micro/HDMI Adapter:
+- USB Reader
+- Raspberry Pi Case with a Cooling Fan
+
+1. Micro/HDMI Adapter: 
+This cable can connect the Raspberry Pi to the monitor. This way, you can operate the Raspberry Pi directly using a keyboard, mouse, and monitor.
+
+2. USB Reader: 
+When you need to re-flash the operating system, you will need this card reader to connect your computer to the Raspberry Pi's TF memory card.
+
+3. Raspberry Pi Case with a Cooling Fan：
+    Protect the hardware and assist in heat dissipation.
+
 
 ### Software
-- Raspberry Pi OS (Official OS)
+Software in Raspberry Pi
+- Raspberry Pi OS (Raspbian GNU/Linux 12 (bookworm), download (Raspberry Pi OS with desktop and recommended software) from [here](https://www.raspberrypi.com/software/operating-systems). Please refer to [here](#Steps-for-Flashing-the-Operating-System) for the flashing steps.
+- Python 3.11.2
+
+If you need to access the Raspberry Pi remotely, download a software that enables SSH remote access on the desktop.
+- MobaXterm (Recommended) Download from [here](https://mobaxterm.mobatek.net/download.html)
+- An instruction on how to use the software to access the RaspberryPi remotely can be found in the appendix, click [here](#Steps-for-Remote-Access)
+
 
 ### Dependencies
 - `opencv-python`
@@ -98,7 +118,46 @@ Select **Adjust Parameters** from the menu to perform the following:
 
 ---
 
+## Attachments
+### Steps for Flashing the Operating System
+1. The App used to re-flash the operation, download from [here](https://www.raspberrypi.com/software):
+
+![Step1](https://github.com/user-attachments/assets/b6f41eee-8a4d-445d-a70f-5fb8267ee78a)
+
+
+2. Select the Downloaded Operating System Image File or download online from the options in list:
+
+![Step2](https://github.com/user-attachments/assets/3019d8a8-8e26-4ca6-a6bc-71394e1c587a)
+
+3. Apply Customized Setting:
+
+![Step3](https://github.com/user-attachments/assets/cca3e70a-eb0c-4ae5-ad01-a7a5c998033e)
+
+- Pre-setting the the WIFI. The author used his own mobile phone's hotspot as the network here. Some public networks may not be able to be connected due to certificate issues (for example, the school network cannot be directly connected).
+
+![Step4](https://github.com/user-attachments/assets/adc84258-351e-465b-9678-e085b077fbc1)
+
+- If you want to use password:
+
+![Step 5](https://github.com/user-attachments/assets/d21c6059-3af3-4509-abc6-443f53a3bfb3)
+
+- If you trust the device you are using: 
+
+![Step5](https://github.com/user-attachments/assets/abd457b9-5707-488e-8dcf-b41172b070a1)
+
+
+### Steps for Remote Access
+The software used here is MobaXterm. Download from [here](https://mobaxterm.mobatek.net/download.html).
+1. Create a new session and select SSH:
+
+![Step 1](https://github.com/user-attachments/assets/8ef238f6-bb44-4a60-ab4f-239dbc5cb16f)
+
+![Step 2](https://github.com/user-attachments/assets/7e2a485c-e1cd-4f25-9771-6463eddbb4af)
+
+2. Type the host name or host IP of the Raspberry Pi, the port number is 22.
+
+![Step 3](https://github.com/user-attachments/assets/0bf53255-5f29-490d-9089-61b91f4c8413)
+
+
 ## Contact
 For support or feedback, please contact the repository maintainer.
-
---- 
