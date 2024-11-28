@@ -67,10 +67,25 @@ If you need to access the Raspberry Pi remotely, download a software that enable
 ### Step 1: Install Dependencies
 Run the following commands on your Raspberry Pi:
 ```bash
-sudo apt update
-sudo apt install python3-opencv python3-pip -y
-pip3 install numpy picamera2
+cd Desktop
 ```
+
+Download the folder into Desktop, then enter the folder
+```bash
+cd SYP-Power-Print
+```
+
+Download the lib
+```bash
+pip install --upgrade pip
+pip install opencv-python和sudo apt install python3-opencv python3-pip -y
+```
+
+Run the python code:
+```bash
+python detect.py
+```
+
 
 ### Step 2: Clone the Repository
 Clone this repository to your Raspberry Pi:
@@ -161,4 +176,7 @@ The software used here is MobaXterm. Download from [here](https://mobaxterm.moba
 
 ## Contact
 For support or feedback, please contact the repository maintainer.
+
+
+
 
