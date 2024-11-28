@@ -129,3 +129,36 @@ Select **Adjust Parameters** from the menu to perform the following:
 
 ![Step2](https://github.com/user-attachments/assets/3019d8a8-8e26-4ca6-a6bc-71394e1c587a)
 
+3. Apply Customized Setting:
+
+![Step3](https://github.com/user-attachments/assets/cca3e70a-eb0c-4ae5-ad01-a7a5c998033e)
+
+- Pre-setting the the WIFI. The author used his own mobile phone's hotspot as the network here. Some public networks may not be able to be connected due to certificate issues (for example, the school network cannot be directly connected).
+
+![Step4](https://github.com/user-attachments/assets/adc84258-351e-465b-9678-e085b077fbc1)
+
+- If you want to use password:
+
+![Step 5](https://github.com/user-attachments/assets/d21c6059-3af3-4509-abc6-443f53a3bfb3)
+
+- If you trust the device you are using: 
+
+![Step5](https://github.com/user-attachments/assets/abd457b9-5707-488e-8dcf-b41172b070a1)
+
+
+### Steps for Remote Access
+The software used here is MobaXterm. Download from [here](https://mobaxterm.mobatek.net/download.html).
+1. Create a new session and select SSH:
+
+![Step 1](https://github.com/user-attachments/assets/8ef238f6-bb44-4a60-ab4f-239dbc5cb16f)
+
+![Step 2](https://github.com/user-attachments/assets/7e2a485c-e1cd-4f25-9771-6463eddbb4af)
+
+2. Type the host name or host IP of the Raspberry Pi, the port number is 22.
+
+![Step 3](https://github.com/user-attachments/assets/0bf53255-5f29-490d-9089-61b91f4c8413)
+
+
+## Contact
+For support or feedback, please contact the repository maintainer.
+
