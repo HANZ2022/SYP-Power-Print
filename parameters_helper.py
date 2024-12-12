@@ -225,7 +225,7 @@ class parameter_adjusting:
                     end = True
                 elif mode == '1':
                     x = input("Real Length(mm):").strip()
-                    y = input("Real Width(mm):").strip()
+                    y = input("Real Height(mm):").strip()
                     with open(f"{self.parameters_folder}/real_size.txt", 'w') as file:
                         file.write(f"{x},{y}\n")
                 elif mode == '2':
