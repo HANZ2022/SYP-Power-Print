@@ -13,6 +13,7 @@ A detection system utilizing **Raspberry Pi Camera 3** and **Raspberry Pi 5** fo
   - [Menu Options](#menu-options)
   - [Parameter Adjustment](#parameter-adjustment)
 - [File Structure](#file-structure)
+- [Operation process](#Operation-process)
 - [Notes](#notes)
 - [Contact](#contact)
 - [Attachments](#Attachments)
@@ -65,41 +66,32 @@ If you need to access the Raspberry Pi remotely, download a software that enable
 ## Installation
 
 ### Step 1: Install Dependencies
-Run the following commands on your Raspberry Pi:
-```bash
-cd Desktop
-```
-
-Download the folder into Desktop, then enter the folder
-```bash
-cd SYP-Power-Print
-```
-
 Download the lib
 ```bash
 pip install --upgrade pip
 sudo apt install python3-opencv python3-pip -y
 ```
 
-Run the python code:
-```bash
-python detect.py
-```
-
-
 ### Step 2: Clone the Repository
+Run the following commands on your Raspberry Pi:
+```bash
+cd Desktop
+```
 Clone this repository to your Raspberry Pi:
 ```bash
 git clone <repository_url>
 cd <repository_directory>
 ```
-
-### Step 3: Run the Application
-Launch the application with:
+After downloading the folder into Desktop, then enter the folder
 ```bash
-python3 detect.py
+cd SYP-Power-Print
 ```
 
+### Step 3: Run the Application
+Run the python code:
+```bash
+python detect.py
+```
 ---
 
 ## Usage
@@ -127,10 +119,24 @@ Select **Adjust Parameters** from the menu to perform the following:
 
 ---
 
+## Operation process
+1. python detect.py
+2. Select the resolution
+3. Select an existing parameter folder or create a new one
+4. Start to modify the parameters.
+5. Select the corners of the region of interest firstly.
+6. Cropping for the target template secondly.
+7. Modifying the real dimensions of the region of interest.
+8. Start detecting.
+---
+
 ## Notes
+- When operating, please read the prompt words shown in the terminal carefully. It will tell you what you need to do.
 - Ensure the Camera 3 is correctly connected and enabled before running the application.
 - All parameter files are stored in the `parameters_support` folder, with separate subfolders for each configuration.
-
+- When cropping the target pattern, when a blue area appears in the displayed window that was not there before, it means that the program is ready to crop.
+- When you are cropping an image, make sure the system focuses on the image window. For example, when cropping, the terminal will prompt you to use the keyboard to cancel, continue, exit, etc. Make sure that the image window is the window selected by your mouse before using the keyboard.
+- Every time the relative position of the camera and the region of interest changes, all parameters need to be reset.
 ---
 
 ## Attachments
