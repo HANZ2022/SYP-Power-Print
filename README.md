@@ -128,7 +128,9 @@ Select **Adjust Parameters** from the menu to perform the following:
 6. Cropping for the target template secondly.
 7. Modifying the real dimensions of the region of interest.
 8. Start detecting.
-   A demonstration video can be found [​here](https://www.youtube.com/watch?v=Vo7g2HlLYls)
+   
+A demonstration video can be found [​here](https://www.youtube.com/watch?v=Vo7g2HlLYls)
+
 ---
 
 ## Notes
